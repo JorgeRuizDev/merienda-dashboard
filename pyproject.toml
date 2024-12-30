@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "merienda"
+version = "0.1.0"
+description = ""
+authors = ["Jorge Ruiz <contact@jorgeruizdev.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.10,<3.14"
+reflex = "^0.6.7"
+tapo = "^0.8.0"
+pywebview = "*"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
