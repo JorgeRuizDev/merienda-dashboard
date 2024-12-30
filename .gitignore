@@ -3,3 +3,4 @@ assets/external/
 *.db
 .web
 *.py[cod]
+.env
